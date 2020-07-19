@@ -33,7 +33,15 @@ public class OperatorDemo {
 		System.out.println("number value: "+number);
 		
 		new_num = ++number;
-		System.out.println("new_num value: "+new_num);		
+		System.out.println("new_num value: "+new_num);	
+		
+		int empId = 101;
+//		empId = empId + 1;
+		
+		empId += 1;
+		
+		
+		
 	}
 
 }
