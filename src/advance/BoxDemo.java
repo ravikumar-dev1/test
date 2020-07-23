@@ -12,15 +12,25 @@ public class BoxDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		BoxDemo boxDemo;  //reference of a class boxDemo=null
+		BoxDemo box1;  //reference of a class boxDemo=null
 		
-		
-		boxDemo = new BoxDemo();//boxDemo is a instance/objcet of a class
-		boxDemo.depth=4;
-		System.out.println(boxDemo.depth);
+		box1 = new BoxDemo();//boxDemo is a instance/objcet of a class
+		box1.depth=4;
+//		System.out.println(boxDemo.depth);
 		
 		BoxDemo box2 = new BoxDemo();	
-		System.out.println(box2.depth);
+//		System.out.println(b	ox2.depth);
+		
+		
+		BoxDemo b1 = new BoxDemo();
+		b1.width = 45;
+		
+		BoxDemo b2 = b1;
+		
+		b2.depth = 67;
+		System.out.println("Depth is " + b1.depth);
+		
+		
 	}
 
 }
