@@ -23,7 +23,6 @@ public class StaticDemo {
 		// TODO Auto-generated method stub
 		StaticDemo.incrementNumber(0);
 		
-		
 		StaticDemo obj = new StaticDemo();
 		obj.num = 34;
 		obj.counter = 40;
