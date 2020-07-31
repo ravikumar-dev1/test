@@ -7,6 +7,8 @@ public class ParentClass {
 	
 	private int marks;
 	
+	protected String address;
+	
 	public void parentClassMethod() {
 		System.out.println("Inside parentClassMethod");
 	}
