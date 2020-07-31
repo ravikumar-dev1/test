@@ -25,6 +25,10 @@ public class StringClassDemo {
 		//== compares address
 		//equals() compare actual content of the string
 		
+		String address = "Flat No-405, City-ABC, Dist.-PQR";
+		System.out.println(address.length());
+		System.out.println("Character at index 31 " + address.charAt(31));
+		
 	}
 
 }
