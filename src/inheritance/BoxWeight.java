@@ -17,7 +17,7 @@ public class BoxWeight extends Box {
 	}
 	
 	public void subClassMethod() {
-		System.out.println("Length is: " + length);
+		System.out.println("Length is: " + super.length);
 	}	
 
 	public static void main(String[] args) {
