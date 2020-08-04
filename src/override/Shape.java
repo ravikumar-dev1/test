@@ -9,7 +9,7 @@ public class Shape {
 	}
 	
 	public float calcArea() {
-		System.out.println("Invalid shape to calculate area");
+//		System.out.println("Invalid shape to calculate area");
 		return -1.0F;
 	}
 	

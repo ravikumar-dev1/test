@@ -3,6 +3,7 @@ package override;
 public class Child extends Parent{
 
 	//method overriding
+	@Override
 	 public void show() {
 //		super.show();
 		System.out.println("Inside child show method");
