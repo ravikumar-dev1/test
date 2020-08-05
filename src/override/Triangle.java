@@ -2,11 +2,13 @@ package override;
 
 public class Triangle extends Shape{
 
+	int num = 5;//variables are not overriden
 	public Triangle(float dim1, float dim2){
 		super(dim1, dim2);
 	}
 	
 	public float calcArea() {
+		System.out.println("Triangle calcArea method called.");
 		return (dim1 * dim2)/2;
 	}
 	
@@ -31,7 +33,11 @@ public class Triangle extends Shape{
 			System.out.println("Dimensions are " + arr[counter]);
 			System.out.println("Area: is " + arr[counter].calcArea());//method overriding
 			
-		}		
+		}
+		
+		Shape shape = new Triangle(2,3);
+		shape.calcArea();
+		System.out.println("Num value is: " + shape.num);//3-shape or 5-Triangle
 		
 		
 		
