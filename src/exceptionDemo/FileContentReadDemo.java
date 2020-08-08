@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.FileSystemNotFoundException;
 
 public class FileContentReadDemo {
 	
@@ -20,8 +21,10 @@ public class FileContentReadDemo {
 		}catch (FileNotFoundException e) {
 			e.printStackTrace();
 			System.out.println("File " + fileName + " not found on computer.");
-		}catch(IOException e) {
+		}catch(IOException  e) {
 			System.out.println("Error while reading file content " + fileName);
+		}catch (Exception e) {//This is generic exception handling
+			System.out.println("Unknown exception occurred.");
 		}
 		
 	}
