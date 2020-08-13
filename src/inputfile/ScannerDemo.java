@@ -10,7 +10,7 @@ public class ScannerDemo {
 		Scanner sc = new Scanner(new File("C:\\Users\\nilesh.gavhane\\Desktop\\test.txt"));
 		
 		String line;
-		while(sc.hasNextLine()) {
+		while(sc.hasNextLine()) {//it returns boolean value
 			System.out.println(sc.nextLine());
 		}
 

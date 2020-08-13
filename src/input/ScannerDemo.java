@@ -11,6 +11,7 @@ public class ScannerDemo {
 //		System.out.println("Enter number is " + num);
 
 		String str = sc.nextLine();
+		String st2 = sc.nextLine();
 		int num = Integer.parseInt(str);
 		System.out.println("Enter string is " + str);
 		

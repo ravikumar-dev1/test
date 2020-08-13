@@ -14,7 +14,6 @@ public class BufferedReaderDemo {
 		String line;
 		while((line = reader.readLine()) != null){
 			System.out.println(line);
-			System.out.println("executing");
 		}
 		
 		
